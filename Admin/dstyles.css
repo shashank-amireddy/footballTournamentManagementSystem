@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lily+Script+One&family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas1Neue&family=Lily1Script1One&family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background-color: #151922;
+}
+
+.container {
+    color: #fff;
+    padding: 25px;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.title {
+    font-size: 75px;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 30px;
+
+}
+
+.back a{
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    margin-top: -10px;
+    color: #82eefd;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.back a:hover {
+    color: #52b2bf;
+    
+}
+
+.sub-title {
+    font-size: 35px;
+    font-weight: 550;
+    text-align: left;
+    padding: 10px 30px;
+    
+} 
+
+.inpP {
+    margin: 0px 0px 10px 10px;
+}
+
+.inp2 {
+    margin: 0px 0px 10px 10px;
+}
+
+.submit {
+    margin-left: 350px;
+    padding: 10px 30px;
+    color: #82eefd;
+    border-style: none;
+    border-radius: 30px;
+    border: 2px solid #82eefd;
+    transition: 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.submit:hover {
+    background-color: #82eefd;
+    color: black;
+    
+    
+}
+
+.submit p {
+    background-color: none;
+    font-size: 15px;
+}
+
+.submit p:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.inp1 {
+    color: #fff;
+}
+
+.inp2 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.itab { 
+    margin: 0px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 100;
+
+}
+
+.itab input {
+    border: solid 2px #fff;
+    border-radius: 10px;
+}
+
+.l {
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.sel {
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+#parent {
+    position: relative;
+}
+
+
+.d2 {
+    position: absolute;
+    top: 250px;
+    z-index: -1;
+    margin-left: 1000px;
+}
+
+.d2{
+    z-index: 1;
+    transform: translateX(-150px);
+    
+}
+
+.d2 img {
+    width: 100%;
+}
