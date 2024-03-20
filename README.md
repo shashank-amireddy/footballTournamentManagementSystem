@@ -25,8 +25,9 @@ This Football Tournament Management System is designed to facilitate the organiz
 
 1. *Clone Repository*: Clone this repository to your local machine.
 
-bash
-git clone https://github.com/your/repository.git
+```command
+git clone https://github.com/shashank-amireddy/footballTournamentManagementSystem.git
+```
 
 
 2. *Database Configuration*: Set up your MySQL database and configure the connection details in config.php.
